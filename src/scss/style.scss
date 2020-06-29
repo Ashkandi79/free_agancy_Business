@@ -6,7 +6,7 @@
 //                                                    START CODE
 //start header
 .header__top {
-  background-color: $grey;
+  background-color: #f0f2f4;
   border-bottom: 2px solid #e2e2e2;
 }
 
@@ -304,9 +304,85 @@
   }
 }
 
-
-
 // end section about
+// start section approch
+.approch {
+  background-color: #f3f3f3;
+}
+
+.approch__inner {
+  padding-top: 62px;
+}
+
+// .wrapper {
+//   display: flex;
+//   justify-content: space-between;
+// }
+
+.box__img1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.box__img2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.approch__item1 {
+  display: inline-block;
+  text-align: start;
+  background-color: #fff;
+  padding: 70px 73px 78px 89px;
+
+  .item__title {
+    font-family: 'Roboto-Bold', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    padding-bottom: 15px;
+  }
+
+  .item__text {
+    font-family: 'OpenSans-Light', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+
+.step {
+  position: absolute;
+  background-color: red;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  width: 100px;
+  height: 100px;
+}
+
+.step__order {
+  color: #fff;
+}
+
+
+
+
+
+
+
+// .Rounded_Rectangle_14 {
+//   border-radius: 3px;
+//   background-color: rgb(255, 255, 255);
+//   position: absolute;
+//   left: 186px;
+//   top: 1512px;
+//   width: 1030px;
+//   height: 245px;
+//   z-index: 89;
+// }
+
+
+// end section approch
 
 // END CODE
 //
