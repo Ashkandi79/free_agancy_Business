@@ -314,10 +314,10 @@
   padding-top: 62px;
 }
 
-// .wrapper {
-//   display: flex;
-//   justify-content: space-between;
-// }
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
 
 .box__img1 {
   display: flex;
@@ -329,8 +329,8 @@
   justify-content: flex-end;
 }
 
-.approch__item1 {
-  display: inline-block;
+.approch__item1,
+.approch__item2 {
   text-align: start;
   background-color: #fff;
   padding: 70px 73px 78px 89px;
@@ -354,8 +354,8 @@
 .step {
   position: absolute;
   background-color: red;
-  border: 1px solid #fff;
-  border-radius: 3px;
+  border: 2px solid #fff;
+  border-radius: 5px;
   width: 100px;
   height: 100px;
 }
