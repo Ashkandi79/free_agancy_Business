@@ -469,75 +469,62 @@
 
 // end section work
 // start section social
+
 .social {
   background-color: #1287bf;
   height: 846px;
+  text-align: center;
 }
 
-.contact__form {
-  display: flex;
-  flex-wrap: wrap;
+.form {
+  padding: 50px 60px;
   background-color: #fff;
+  text-align: center;
+  margin-top: 130px;
   width: 683px;
-  height: 451px;
-  width: 100%;
-  margin-top: 80px;
-  border: 1px solid #fff;
-  border-radius: 5px;
-  position: relative;
 
-  .contact__form-text {
+  .form-header {
     font-family: 'Roboto-Regular', sans-serif;
     font-weight: 400;
     font-size: 15px;
-    line-height: 15px;
+    line-height: 14px;
     color: #828282;
-    text-align: center;
-    padding: 50px 60px 0px 60px;
+    margin-bottom: 40px;
   }
 
-  .contact__form-row {
-    display: flex;
-    flex-direction: column;
+  .form__box-row {
+    margin-top: 8px;
+    padding: 20px;
+    width: 444px;
+    font-size: 15px;
+    border: 1px solid #d8d8d8;
+    border-radius: 5px;
+    color: #828282;
 
-    input {
-      padding-left: 20px;
-      margin-bottom: 10px;
-      width: 442px;
-      height: 53px;
-      border: 1px solid #d8d8d8;
-      border-radius: 5px;
-      color: #828282;
-
-      &::placeholder {
-        font-size: 15px;
-        color: #7a7a7a;
-      }
-    }
-
-    .row3 {
-      margin-bottom: 0px;
+    &::placeholder {
+      font-size: 15px;
+      color: #7a7a7a;
     }
   }
 
-  .button {
-    width: 160px;
-    height: 65px;
+  .btn {
     background-color: $red;
     color: #fff;
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 700;
+    line-height: 14px;
     border: transparent;
     border-radius: 5px;
-    text-align: center;
-    position: absolute;
-    bottom: 68px;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+    width: 160px;
+    height: 45px;
+    padding: 10px 20px;
+    margin-top: 37px;
   }
 }
 
 // end section social
 // start footer
+
 .footer {
   background-color: #2a2a2a;
 }
@@ -594,13 +581,20 @@
     }
   }
 
-  .footer__form-title {
-    padding-bottom: 30px;
-    color: #fff;
-    font-size: 15px;
+  .footer__form {
+    width: 690px;
+    height: 180px;
+    text-align: center;
   }
 
-  input {
+  .footer__form-header {
+    font-family: 'OpenSans-Light', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #fff;
+  }
+
+  .footer__box-row {
     border: none;
     background-color: #515151;
     color: #fff;
@@ -608,17 +602,15 @@
     width: 100%;
     width: 683px;
     height: 56px;
-    color: #fff;
     font-size: 14px;
-    padding-left: 171px;
-    padding-right: 171px;
+    padding: 30px 0px 28px 0px;
 
     &::placeholder {
       color: #697378;
     }
   }
 
-  button {
+  .footer__btn {
     position: absolute;
     border: transparent;
     border: 1px solid #515151;
@@ -633,18 +625,6 @@
   margin-top: 84px;
 }
 
-
-
-//   &::before {
-//     content: '\f124';
-//     position: absolute;
-//     font-family: 'icomoon';
-//     color: #fff;
-//     font-size: 20px;
-//     top: 11px;
-//     left: 13px;
-//   }
-// }
 // end footer
 
 
